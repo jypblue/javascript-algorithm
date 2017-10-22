@@ -1,3 +1,10 @@
+/**
+ * 二分查找：
+ *
+ *
+ * @class BinarySearch
+ */
+
 class BinarySearch {
 
   /**
