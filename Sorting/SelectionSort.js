@@ -16,15 +16,15 @@ class SelectionSort {
         if(nums[j] < nums[min]) {
           min = j;
         }
-        swap(nums, i, min);
+        this.swap(nums, i, min);
       }
     }
   }
 
-  swap(nums, next, prev){
-    let temp = nums[next];
-    nums[next] = nums[prev];
-    nums[prev] = temp;
+  swap(nums, hi, lo){
+    let temp = nums[hi];
+    nums[hi] = nums[lo];
+    nums[lo] = temp;
   }
 
 }
