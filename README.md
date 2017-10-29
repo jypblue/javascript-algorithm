@@ -4,5 +4,5 @@
 #### 常用算法
 
 ##### 查找
-1. 二分查找 -> BinarySearch
+1. 二分查找 -> Search/BinarySearch
 
